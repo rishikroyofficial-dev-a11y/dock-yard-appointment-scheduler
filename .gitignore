@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing cache
+.pytest_cache/
+
+# Secrets and environment variables
+.env
+.env.*
+
+# VS Code local settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated datasets
+output_clean/
+output_dirty/
+output_full/
+output_full_clean/
+output_full_dirty/
+
+# Reproducibility test outputs
+reproducibility_run1/
+reproducibility_run2/
